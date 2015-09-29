@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vaneves\\Console\\Command\\": "src/"
+            "Vaneves\\": "src/Vaneves"
         }
     },
     "require": {

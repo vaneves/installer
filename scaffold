@@ -3,9 +3,11 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Vaneves\Console\Command\ScaffoldCommand;
+use Vaneves\Console\ProjectCommand;
+use Vaneves\Console\EntityCommand;
 use Symfony\Component\Console\Application;
 
 $application = new Application();
-$application->add(new ScaffoldCommand());
+$application->add(new ProjectCommand());
+$application->add(new EntityCommand());
 $application->run();
