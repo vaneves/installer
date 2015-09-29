@@ -1,0 +1,23 @@
+{
+    "name": "vaneves/installer",
+    "description": "Silex application installer.",
+    "keywords": ["silex", "scaffold", "installer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Van Neves",
+            "email": "vaneves@vaneves.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vaneves\\Console\\Command\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/console": "~2.3"
+    },
+    "bin": [
+        "scaffold"
+    ]
+}
